@@ -1,0 +1,10 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Next.js env
+frontend/.env.local
