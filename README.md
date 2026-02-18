@@ -156,10 +156,9 @@ infra/aws/
 
 Full architecture and infrastructure explanation:
 
-GOOGLE_DOC_LINK_HERE
-
+https://docs.google.com/document/d/1AkVeDNK3S9RP5s3-uvl8xM4vh03q-Tv6ArU2BvQXAwA/edit?usp=drive_link
 ---
 
 ## Demo Video
 
-VIDEO_LINK_HERE
+
