@@ -2,6 +2,16 @@
 
 This project consists of a FastAPI backend and a Next.js frontend that communicates with the backend.
 
+## Live Deployments
+
+### AWS
+Frontend: http://13.126.90.129:3000  
+Backend Health: http://13.126.90.129:8000/api/health  
+
+### Azure
+Frontend: https://pgagi-frontend.graystone-45f73a84.centralindia.azurecontainerapps.io  
+Backend Health: https://pgagi-backend.graystone-45f73a84.centralindia.azurecontainerapps.io/api/health
+
 ## Project Structure
 
 ```
@@ -123,3 +133,33 @@ NEXT_PUBLIC_API_URL=https://your-new-backend-url.com
 
 - `GET /api/message`: Get the integration message
   - Returns: `{"message": "You've successfully integrated the backend!"}`
+
+---
+
+## Infrastructure (Terraform)
+
+AWS infrastructure is provisioned using Terraform.
+
+Features implemented:
+
+- separate dev / staging / prod environments
+- remote state stored in Amazon S3
+- DynamoDB used for state locking
+
+Terraform configuration is located in:
+
+infra/aws/
+
+---
+
+## Documentation
+
+Full architecture and infrastructure explanation:
+
+GOOGLE_DOC_LINK_HERE
+
+---
+
+## Demo Video
+
+VIDEO_LINK_HERE
